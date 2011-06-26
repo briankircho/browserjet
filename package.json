@@ -1,0 +1,18 @@
+{
+  "author": "Brian Kirchoff <briankircho@gmail.com> (http://bkirchoff.com/)",
+  "name": "browserjet",
+  "description": "headless webkit browser",
+  "version": "0.1.0",
+  "homepage": "http://browserjet.com/",
+  "repository": "git://github.com/briankircho/browserjet.git",
+  "engines": {
+    "node": ">= 0.4.0"
+  },
+  "scripts":{
+    "install" : "./install.py"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "expresso": ">= 0.7"
+  }
+}
