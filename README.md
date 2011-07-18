@@ -7,10 +7,8 @@ Installing
 --------------------------------------
 To install the node.js module simply use
 
-```javascript
-npm install browserjet
-```
-     
+    npm install browserjet
+
 Currently supported is Linux 32/64
 
 Usage
@@ -19,7 +17,7 @@ Browserjet provides and easy to use API.  To load, manipulate, and save a page a
 
 ```javascript
 var browserjet = require('browserjet'),
-    browser = browserjet.createNewBrowser();
+    browser = browserjet.createBrowser();
     
 browser
   .chain
@@ -98,13 +96,10 @@ Tests
 --------------------------------------
 The browserjet tests use expresso, which you can install with
 
-```javascript
-npm install -g expresso
-```
+    npm install -g expresso
 
 Then in the module directory you can just run
 
-```javascript
-expresso
-```
+    expresso
+
        
