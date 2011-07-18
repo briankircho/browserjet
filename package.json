@@ -3,7 +3,7 @@
   "name": "browserjet",
   "description": "headless webkit browser",
   "version": "0.1.0",
-  "homepage": "http://browserjet.com/",
+  "homepage": "https://github.com/briankircho/browserjet",
   "repository": "git://github.com/briankircho/browserjet.git",
   "engines": {
     "node": ">= 0.4.0"
